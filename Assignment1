@@ -1,0 +1,10 @@
+3 Real World Applications: 
+
+1. Social Media - Database used: NoSQL
+Social Media stores billions of posts, comments, users and their activities. NoSQL databases can scale horizontally and handle large volumes of unstructured data.
+
+2. Banking System - Database used: SQL
+Banking systems require strong consistency, ACID transactions and structured data consisting of user accounts, bank balances and transactions. SQL databases help ensure data integrity and prevent partial or duplicate transactions.
+
+3. Redis - Database used: In-memory
+Frequently accessed data are stored in-memory databases for fast access and reduce latency.
