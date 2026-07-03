@@ -1,0 +1,2 @@
+Primary Key (id) – Automatically indexed. Used for fast lookup of individual orders.
+Index on user_id – Speeds up queries that retrieve all orders of a particular user.
