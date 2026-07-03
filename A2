@@ -1,0 +1,5 @@
+Soft delete: Example: E-commerce
+(To keep records for recovery, audits, and order history)
+
+Hard delete: Example: OTP Verification System
+(OTPs are temporary and should be permanently removed after use or expiry)
