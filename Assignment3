@@ -1,0 +1,22 @@
+Importance of Normalization:
+1. Reduces Redundancy - prevents storing same information multiple times
+2. Improves data consistency - reduces the chances of inconsistent data
+3. Prevents data anomalies - Prevents insertion, update, and deletion anomalies
+
+Problems that occur when database is not normalized:
+1. Insertion anomaly - a new data cannot be added into database without adding unnecessary or unrelated data
+2. Updation anomaly - occurs when same piece of data is stored in multiple rows, requiring multiple updates. If one update is missed, database becomes inconsistent.
+3. Deletion anomaly - occurs when deleting a record unintentionally deletes other important information from the database.
+
+
+
+Order_ID  Customer_Name  Products
+----------------------------------
+101       Rahul          Laptop, Mouse
+
+1NF :
+Order_ID  Customer_Name  Products
+---------------------------------
+101       Rahul          Laptop
+101       Rahul          Mouse
+
