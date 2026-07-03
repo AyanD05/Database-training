@@ -1,0 +1,6 @@
+Composite Index:
+CREATE INDEX idx_booking, doctor_date
+ON bookings(doctor_id,appointment_date);
+
+-doctor_id comes first because it is matched using '=' .
+-appointment_date comes second because it is used in a range condition (>= and <=)
